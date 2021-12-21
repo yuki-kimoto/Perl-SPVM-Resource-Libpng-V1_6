@@ -1,0 +1,3 @@
+class Resource::Libpng::V1_6 : precompile {
+  native static method dummy : int ();
+}
