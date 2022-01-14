@@ -7,7 +7,7 @@ use DynaLoader;
 
 use Test::More 'no_plan';
 
-use SPVM 'Resource::Libpng::V1_6';
+use SPVM 'Resource::Libpng';
 
 
-is(SPVM::Resource::Libpng::V1_6->dummy, 1);
+is(SPVM::Resource::Libpng->dummy, 1);

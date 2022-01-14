@@ -8,7 +8,7 @@
 
 static const char* MFILE = "SPVM/Math.c";
 
-int32_t SPVM__Resource__Libpng__V1_6__dummy(SPVM_ENV* env, SPVM_VALUE* stack) {
+int32_t SPVM__Resource__Libpng__dummy(SPVM_ENV* env, SPVM_VALUE* stack) {
   (void)env;
   
   png_colorp palette;
