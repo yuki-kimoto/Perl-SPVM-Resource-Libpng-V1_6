@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 use strict;
 use warnings;
 
-use SPVM::Builder::Util;
+use SPVM::Builder::Util::API;
 
 WriteMakefile(
     NAME              => 'SPVM::Resource::Libpng',
@@ -27,7 +27,7 @@ WriteMakefile(
         },
     },
     PREREQ_PM => {
-        'SPVM'              => '0.9019',
+        'SPVM'              => '0.9500',
     },
 );
 
@@ -37,7 +37,7 @@ sub MY::postamble {
   my $make_rule = '';
   
   # Native compile make rule
-  $make_rule .= SPVM::Builder::Util::create_make_rule_native('Resource::Libpng');
+  $make_rule .= SPVM::Builder::Util::API::create_make_rule_native('Resource::Libpng');
 
   return $make_rule;
 }
