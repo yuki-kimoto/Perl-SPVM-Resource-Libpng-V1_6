@@ -1,5 +1,0 @@
-class Resource::Libpng : precompile {
-  use Resource::Zlib;
-  
-  native static method dummy : int ();
-}
