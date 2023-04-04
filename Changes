@@ -1,5 +1,6 @@
-Revision history for SPVM::Math
-
+0.02  2023-04-05
+  [License Change]
+    * The license is changed to MIT License.
 0.01  2022-02-01
   [CHANGES]
   * First development release
