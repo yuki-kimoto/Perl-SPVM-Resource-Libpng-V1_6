@@ -37,8 +37,8 @@ WriteMakefile(
     resources => {
       repository => {
         type => 'git',
-        url  => 'https://github.com/yuki-kimoto/Perl-SPVM-Resource-Libpng.git',
-        web  => 'https://github.com/yuki-kimoto/Perl-SPVM-Resource-Libpng',
+        url  => 'https://github.com/yuki-kimoto/SPVM-Resource-Libpng.git',
+        web  => 'https://github.com/yuki-kimoto/SPVM-Resource-Libpng',
       },
     },
   },
