@@ -1,6 +1,9 @@
 0.02  2023-04-05
   [License Change]
     * The license is changed to MIT License.
+  [Prerequirement Change]
+    * SPVM 0.9701 is required.
+    * SPVM::Resource::Zlib 0.02 is required.
 0.01  2022-02-01
   [CHANGES]
   * First development release
