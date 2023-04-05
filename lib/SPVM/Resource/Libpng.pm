@@ -12,6 +12,28 @@ SPVM::Resource::Libpng - The Resource of The libpng Library
 
 SPVM::Resource::Libpng is a L<resource|SPVM::Document::Resource> of L<SPVM> for the L<libpng|https://github.com/glennrp/libpng> library.
 
+=head1 Usage
+
+MyClass.config:
+
+  my $config = SPVM::Builder::Config->new_c99(file => __FILE__);
+  
+  $config->use_resource('Resource::Zlib');
+  $config->use_resource('Resource::Libpng');
+  
+  $config;
+
+MyClass.c:
+
+  #include <png.h>
+  
+  int32_t SPVM__MyClass__test(SPVM_ENV* env, SPVM_VALUE* stack) {
+    
+    png_colorp palette;
+    
+    return 0;
+  }
+
 =head1 Original Product
 
 L<libpng|https://github.com/glennrp/libpng>
