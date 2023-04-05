@@ -10,7 +10,7 @@ SPVM::Resource::Libpng - The Resource of The libpng Library
 
 =head1 Description
 
-SPVM::Resource::Libpng is a L<resource|SPVM::Document::Resource> of L<SPVM> for the L<zlib|https://github.com/madler/zlib> library.
+SPVM::Resource::Libpng is a L<resource|SPVM::Document::Resource> of L<SPVM> for the L<libpng|https://github.com/glennrp/libpng> library.
 
 =head1 Original Product
 
@@ -22,11 +22,11 @@ L<libpng v1.6.39|https://github.com/glennrp/libpng/releases/tag/v1.6.39>
 
 =head1 Language
 
-The C language.
+The C language
 
 =head1 Language Specification
 
-C99.
+C99
 
 =head1 Required Resources
 
@@ -38,9 +38,61 @@ C99.
 
 =head1 Header Files
 
+=over 2
+
+=item * C<pngconf.h>
+
+=item * C<pngdebug.h>
+
+=item * C<png.h>
+
+=item * C<pnginfo.h>
+
+=item * C<pnglibconf.h>
+
+=item * C<pngpriv.h>
+
+=item * C<pngstruct.h>
+
+=back
+
 =head1 Source Files
 
-=head1 Compiler Flags
+=over 2
+
+=item * C<png.c>
+
+=item * C<pngerror.c>
+
+=item * C<pngget.c>
+
+=item * C<pngmem.c>
+
+=item * C<pngpread.c>
+
+=item * C<pngread.c>
+
+=item * C<pngrio.c>
+
+=item * C<pngrtran.c>
+
+=item * C<pngrutil.c>
+
+=item * C<pngset.c>
+
+=item * C<pngtest.c>
+
+=item * C<pngtrans.c>
+
+=item * C<pngwio.c>
+
+=item * C<pngwrite.c>
+
+=item * C<pngwtran.c>
+
+=item * C<pngwutil.c>
+
+=back
 
 =head1 How to Create Resource
 
@@ -71,7 +123,7 @@ The used L<source files|/"Source Files"> are extracted by the following command.
 
 =head1 Repository
 
-L<SPVM::Resource::Libpng - Github|https://github.com/yuki-kimoto/SPVM::Resource::Libpng>
+L<SPVM::Resource::Libpng - Github|https://github.com/yuki-kimoto/SPVM-Resource-Libpng>
 
 =head1 Copyright & License
 
