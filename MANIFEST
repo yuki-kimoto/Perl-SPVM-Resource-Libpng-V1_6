@@ -1,3 +1,8 @@
+.github/workflows/linux-ubuntu-latest-32bit.yml
+.github/workflows/linux-ubuntu-latest-perl-5.8.9.yml
+.github/workflows/linux-ubuntu-latest.yml
+.github/workflows/macos-latest.yml
+.github/workflows/windows-latest.yml
 .gitignore
 Changes
 lib/SPVM/Resource/Libpng.config
@@ -5,6 +10,7 @@ lib/SPVM/Resource/Libpng.native/include/png.h
 lib/SPVM/Resource/Libpng.native/include/pngconf.h
 lib/SPVM/Resource/Libpng.native/include/pngdebug.h
 lib/SPVM/Resource/Libpng.native/include/pnginfo.h
+lib/SPVM/Resource/Libpng.native/include/pnglibconf.h
 lib/SPVM/Resource/Libpng.native/include/pngpriv.h
 lib/SPVM/Resource/Libpng.native/include/pngstruct.h
 lib/SPVM/Resource/Libpng.native/src/.appveyor.yml
