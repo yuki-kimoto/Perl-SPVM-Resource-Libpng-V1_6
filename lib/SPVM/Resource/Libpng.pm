@@ -56,6 +56,8 @@ C99.
 The header files of C<libpng> is copied into the C<include> directory by the following command.
 
   rsync -av --include='*.h' --exclude='*' original.tmp/libpng/ lib/SPVM/Resource/Libpng.native/include/
+  
+  cp lib/SPVM/Resource/Libpng.native/src/scripts/pnglibconf.h.prebuilt lib/SPVM/Resource/Libpng.native/include/pnglibconf.h
 
 =head2 Extracting Source Files
 
