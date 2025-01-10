@@ -1,3 +1,6 @@
 class MyLibpng {
+  
+  use Resource::Libpng;
+  
   native static method test : int ();
 }
