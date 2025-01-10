@@ -3,6 +3,8 @@
     * Require SPVM 0.990038.
   [Changes]
     * Set is_resource field to 1.
+  [Version Up]
+    * libpng version is up to v1.6.45.
 0.011 2023-05-03
   [New Features]
     * The version string can be got.

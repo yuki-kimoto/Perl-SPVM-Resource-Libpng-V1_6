@@ -40,7 +40,7 @@ L<libpng|https://github.com/glennrp/libpng>
 
 =head1 Original Product Version
 
-L<libpng v1.6.39|https://github.com/glennrp/libpng/releases/tag/v1.6.39>
+L<libpng v1.6.45|https://github.com/glennrp/libpng/releases/tag/v1.6.45>
 
 =head1 Language
 
@@ -120,16 +120,16 @@ C99
 
 =head2 Donwload
 
-  mkdir -p original.tmp
-  git clone https://github.com/glennrp/libpng.git original.tmp/libpng
-  git -C original.tmp/libpng checkout tags/v1.6.39 -b branch_v1.6.39
-  git -C original.tmp/libpng branch
+  mkdir -p .tmp
+  git clone https://github.com/glennrp/libpng.git .tmp/libpng
+  git -C .tmp/libpng checkout tags/v1.6.45 -b branch_vv1.6.45
+  git -C .tmp/libpng branch
 
 =head1 Extracting Header Files
 
 The header files of C<libpng> is copied into the C<include> directory by the following command.
 
-  rsync -av --include='*.h' --exclude='*' original.tmp/libpng/ lib/SPVM/Resource/Libpng.native/include/
+  rsync -av --include='*.h' --exclude='*' .tmp/libpng/ lib/SPVM/Resource/Libpng.native/include/
   
   cp lib/SPVM/Resource/Libpng.native/src/scripts/pnglibconf.h.prebuilt lib/SPVM/Resource/Libpng.native/include/pnglibconf.h
 
@@ -137,7 +137,7 @@ The header files of C<libpng> is copied into the C<include> directory by the fol
 
 The source files of C<libpng> are copied into the C<src> directory by the following command.
 
-  rsync -av --exclude='*.h' original.tmp/libpng/ lib/SPVM/Resource/Libpng.native/src/
+  rsync -av --exclude='*.h' --exclude='.git' .tmp/libpng/ lib/SPVM/Resource/Libpng.native/src/
 
 The used L<source files|/"Source Files"> are extracted by the following command.
 
