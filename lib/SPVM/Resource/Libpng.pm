@@ -114,6 +114,14 @@ C99
 
 =item * C<pngwutil.c>
 
+=item * C<arm/arm_init.c>
+
+=item * C<arm/filter_neon_intrinsics.c>
+
+=item * C<arm/filter_neon.S>
+
+=item * C<arm/palette_neon_intrinsics.c>
+
 =back
 
 =head1 How to Create Resource
@@ -137,7 +145,7 @@ The header files of C<libpng> is copied into the C<include> directory by the fol
 
 The source files of C<libpng> are copied into the C<src> directory by the following command.
 
-  rsync -av --exclude='*.h' --exclude='.git' .tmp/libpng/ lib/SPVM/Resource/Libpng.native/src/
+  rsync -av --exclude='.git' .tmp/libpng/ lib/SPVM/Resource/Libpng.native/src/
 
 The used L<source files|/"Source Files"> are extracted by the following command.
 
